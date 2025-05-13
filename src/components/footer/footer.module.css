@@ -1,0 +1,17 @@
+
+.footer {
+    background-color:rgb(209,231,221) !important;
+  }
+.card {
+  border: none;
+  font-size: clamp(0.7rem, 1.5rem, 2rem);
+  height: 230px;
+  padding: 1rem;
+  color: rgb(13, 19, 26);
+}
+.linkStyle {
+    text-decoration: none;
+    color: rgb(30, 28, 29);
+    font-size: clamp(0.7rem, 1.5rem, 2rem);
+    margin-right: 1rem;
+}
