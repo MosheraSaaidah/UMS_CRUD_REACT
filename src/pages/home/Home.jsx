@@ -28,7 +28,7 @@ export default function Home() {
     const data = await axios.delete(`${import.meta.env.VITE_BURL}/users/${id}`);
     console.log(data);
     toast.success("User deleted successfully !", {
-          position: "top-right",
+        position: "top-right",
         autoClose: 2500,
         hideProgressBar: false,
         closeOnClick: false,
@@ -42,7 +42,6 @@ export default function Home() {
     const newUsers = users.filter((user) => user._id != id);
     setUsers(newUsers);
   };
-
   useEffect(() => {
     getUsers();
   }, []);
@@ -51,7 +50,7 @@ export default function Home() {
     return <Loader />
   }
   if (error) {
-    return <div className="text-danger"></div>;
+    return <p className="text-danger">Page Not Found </p>;
   }
 
   return (

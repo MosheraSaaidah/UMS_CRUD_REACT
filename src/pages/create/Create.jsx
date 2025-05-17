@@ -30,6 +30,7 @@ export default function Create() {
     console.log(response);
   };
 
+  //Start from here Render Phase and then commit Phase to rerender  ...... 
   return (
     <div className={`container my-5`}>
       <h2>Create User</h2>

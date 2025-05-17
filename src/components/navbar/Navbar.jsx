@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
       <nav className= {`navbar navbar-expand-lg bg-success-subtle position-sticky top-0`}>
         <div className="container">
-          <Link className="navbar-brand" href="#">
+          <Link className="navbar-brand" to={'/home'}>
             Crud Project
           </Link>
           <button
@@ -28,7 +28,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to={"/create"}>
-                  Create
+                  Create Users
                 </Link>
               </li>
             </ul>

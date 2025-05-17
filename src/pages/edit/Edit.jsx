@@ -35,7 +35,7 @@ export default function Edit() {
 
     return (
       <div className={`container my-5`}>
-        <h2>Update User</h2>
+        <h2>Update User Information </h2>
         <form onSubmit={handleSubmit(UpdateForm)}>
           <div className="mb-3">
             <label htmlFor="exampleFormControlInput1" className="form-label">
