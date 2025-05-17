@@ -33,7 +33,6 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-   
       </div>
     </footer>
     // End Footer from BootStrap

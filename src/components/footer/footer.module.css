@@ -3,9 +3,8 @@
     background-color:rgb(209,231,221) !important;
   }
 .card {
-  border: none;
   font-size: clamp(0.7rem, 1.5rem, 2rem);
-  height: 230px;
+  height: 200px;
   padding: 1rem;
   color: rgb(13, 19, 26);
 }

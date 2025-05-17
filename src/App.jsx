@@ -8,16 +8,18 @@ import Edit from "./pages/edit/Edit";
 
 export default function App() {
   return (
-    <>
+    <div className="app-wrapper">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Create />}></Route>
-        <Route path="/create" element={<Create />}></Route>
-        <Route path="/home" element={<Home />}></Route>
-        <Route path="/details/:userId" element={<Details />}></Route>
-        <Route path="/edit/:userId" element={<Edit />}></Route>
-      </Routes>
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Create />}></Route>
+          <Route path="/create" element={<Create />}></Route>
+          <Route path="/home" element={<Home />}></Route>
+          <Route path="/details/:userId" element={<Details />}></Route>
+          <Route path="/edit/:userId" element={<Edit />}></Route>
+        </Routes>
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
